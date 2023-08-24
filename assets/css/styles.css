@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: tomato;
+    /* atributo CSS color */
+}
+
+h2 {
+    color: pink;
+}
+
+h3 {
+    color: azure;
+}
+
+li {
+    margin: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
+
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.menu li {
+    border: 1px solid red;
+}
+
+.borda {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.container-custom {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+.fundomadeira {
+    /* background-image: url("../images/fundo.jpg"); */
+    background-image: url("//picsum.photos/400/400");
+}
